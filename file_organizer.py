@@ -1,6 +1,11 @@
 #  Source code of the file organizer
 #  file_organizer.py by Sudipto Roy
+#  Run this python file in any folder or directory to organize the files
+
 __author__ = 'Sudipto Roy'
+__copyright__ = 'Copyright 2019, File organizer project'
+__maintainter__ = 'Sudipto Roy'
+__email__ = 'sudiptoroy.cse@gmail.com'
 
 from os import listdir, mkdir, rename, path
 from os.path import isfile, join, exists
