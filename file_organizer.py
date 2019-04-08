@@ -1,11 +1,11 @@
 #  Source code of the file organizer
 #  file_organizer.py by Sudipto Roy
+__author__ = 'Sudipto Roy'
 
-
-from os import listdir, mkdir, rename
+from os import listdir, mkdir, rename, path
 from os.path import isfile, join, exists
 
-source_folder = 'D://MyDoc'   # the target folder
+source_folder = path.abspath(path.curdir)   # fetching the absulate path of current directory
 list_item = listdir(source_folder)   # List of the files
 extension_to_folder_mapper = {       # Categorizing with file extension
     'jpg jpeg gif png svg' : 'images',
