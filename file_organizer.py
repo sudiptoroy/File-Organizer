@@ -18,8 +18,8 @@ extension_to_folder_mapper = {       # Categorizing with file extension
     'apk' : 'android apps',
     'txt xlxs xls doc docx pdf' : 'documents',
     'zip tar gz bz2 rar 7zip' : 'compressed files',
-    'py pyc c cpp cs sh whl r js html css php' : 'programming files',
-    'mp3 amr' : 'audio files'
+    'py pyc c cpp cs sh whl r js html css php ts' : 'programming files',
+    'mp3 amr wav m4a m4b m4p webm' : 'audio files'
 
 }
 
